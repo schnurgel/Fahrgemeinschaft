@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fahrgemeinschaft</title>
+    <script src="script.ts"></script>
 </head>
 <body>
     <h1>Fahrgemeinschaft</h1>
@@ -20,7 +21,10 @@
         <input type="text" id="ankort" name="abfzeit"><br>
         <label for="lname">freie Plätze:</label><br>
         <input type="number" id="fplatz" name="lname"><br>
-        <input type="submit" id="submit" name="senden">
+        <input type="submit" id="submit" name="senden" onclick="showList()">
       </form>
+      <div id="list">
+        <p>ok</p>
+      </div>
 </body>
 </html>
